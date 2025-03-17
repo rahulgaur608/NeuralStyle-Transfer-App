@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Gaur | Software Engineer & Full-Stack Developer</title>
+    <meta name="description" content="Rahul Gaur is a software engineer specializing in Python, JavaScript, and full-stack development.">
+    <meta name="keywords" content="Rahul Gaur, Software Engineer, Full-Stack Developer, Python, JavaScript">
+    <meta name="author" content="Rahul Gaur">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Rahul Gaur | Software Engineer">
+    <meta property="og:description" content="Professional portfolio of Rahul Gaur, a software engineer specializing in Python, JavaScript, and full-stack development.">
+    <meta property="og:image" content="https://yourdomain.com/images/profile.jpg">
+    <meta property="og:url" content="https://rahulgaur.dev">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rahul Gaur | Software Engineer">
+    <meta name="twitter:description" content="Professional portfolio of Rahul Gaur, a software engineer specializing in Python, JavaScript, and full-stack development.">
+    <meta name="twitter:image" content="https://yourdomain.com/images/profile.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Rahul Gaur",
+      "url": "https://rahulgaur.dev",
+      "sameAs": [
+        "https://linkedin.com/in/rahulgaur608",
+        "https://github.com/rahulgaur608",
+        "https://twitter.com/rahulgaur608"
+      ],
+      "jobTitle": "Software Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Your Company"
+      },
+      "image": "https://yourdomain.com/images/profile.jpg",
+      "description": "Software Engineer specializing in Python, JavaScript, and full-stack development."
+    }
+    </script>
+    
+    <style>
+        /* Basic CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #4a4a4a;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .section {
+            margin-bottom: 60px;
+        }
+        
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #6e8efb;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #5a7df9;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .skill-tag {
+            background: #f1f1f1;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .project-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .project-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        
+        .project-info {
+            padding: 20px;
+        }
+        
+        .project-title {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        
+        .social-links {
+            margin: 20px 0;
+        }
+        
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            color: #6e8efb;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .projects {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/profile.jpg" alt="Rahul Gaur" class="profile-img">
+        <h1>Rahul Gaur</h1>
+        <p>Software Engineer & Full-Stack Developer</p>
+        <div class="social-links">
+            <a href="https://github.com/rahulgaur608" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/rahulgaur608" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/rahulgaur608" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Rahul Gaur, a passionate software engineer with expertise in building robust and scalable applications. 
+                I enjoy solving complex problems and creating efficient solutions that make a difference.
+            </p>
+            <p>
+                With experience in Python, JavaScript, and various frameworks, I specialize in full-stack development, 
+                creating seamless user experiences backed by solid architecture.
+            </p>
+            <div class="skills">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Django</span>
+                <span class="skill-tag">Flask</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">AWS</span>
+            </div>
+            <div style="margin-top: 30px; text-align: center;">
+                <a href="#contact" class="btn">Contact Me</a>
+                <a href="resume.pdf" class="btn" download>Download Resume</a>
+            </div>
+        </section>
+        
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <img src="images/project1.jpg" alt="Auto Commit Scheduler" class="project-img">
+                    <div class="project-info">
+                        <h3 class="project-title">Auto Commit Scheduler</h3>
+                        <p>A tool developed by Rahul Gaur to automate GitHub contributions and enhance your contribution graph.</p>
+                        <a href="https://github.com/rahulgaur608/auto-commit-scheduler" class="btn" target="_blank">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="images/project2.jpg" alt="E-commerce Platform" class="project-img">
+                    <div class="project-info">
+                        <h3 class="project-title">E-commerce Platform</h3>
+                        <p>Built by Rahul Gaur: A scalable online shopping platform with React, Node.js, and MongoDB.</p>
+                        <a href="#" class="btn" target="_blank">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="images/project3.jpg" alt="Data Analytics Dashboard" class="project-img">
+                    <div class="project-info">
+                        <h3 class="project-title">Data Analytics Dashboard</h3>
+                        <p>Created by Rahul Gaur: Interactive visualizations for business metrics using D3.js and Python.</p>
+                        <a href="#" class="btn" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section" id="contact">
+            <h2>Contact Me</h2>
+            <p style="text-align: center; margin-bottom: 30px;">
+                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+            </p>
+            <form action="#" method="POST" style="max-width: 600px; margin: 0 auto;">
+                <div style="margin-bottom: 20px;">
+                    <label for="name" style="display: block; margin-bottom: 5px;">Name</label>
+                    <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="email" style="display: block; margin-bottom: 5px;">Email</label>
+                    <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="message" style="display: block; margin-bottom: 5px;">Message</label>
+                    <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;"></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+            </form>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/rahulgaur608" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/rahulgaur608" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/rahulgaur608" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:rahulgaur608@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>&copy; 2023 Rahul Gaur. All rights reserved.</p>
+    </footer>
+    
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html> 
