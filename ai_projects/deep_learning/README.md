@@ -67,6 +67,20 @@ deep_learning/
    - Multi-agent training
    - Custom environments
 
+## 🚀 Projects
+
+### [Intelligent Vision System](https://github.com/rahulgaur608/vision-system)
+A state-of-the-art computer vision system that combines multiple deep learning models for real-time object detection, segmentation, and scene understanding. Built with PyTorch and optimized for edge devices.
+
+### [Neural Style Transfer App](https://github.com/rahulgaur608/neural-style-transfer)
+A deep learning application that applies artistic styles to images using convolutional neural networks. Built with PyTorch and deployed as a web application with Flask.
+
+### [Sentiment Analysis API](https://github.com/rahulgaur608/sentiment-analysis-api)
+A robust API for real-time sentiment analysis of text data. Utilizes BERT-based models for accurate classification and provides detailed sentiment metrics.
+
+### [Predictive Analytics Dashboard](https://github.com/rahulgaur608/predictive-analytics)
+An interactive dashboard for visualizing and forecasting business metrics. Combines machine learning models with React-based frontend for intuitive data exploration.
+
 ## 💻 Technical Details
 
 ### Requirements
