@@ -1,0 +1,243 @@
+/* Custom GitHub Theme by Rahul Gaur
+ * This CSS can be used with browser extensions like Stylus or Stylish
+ * to customize GitHub's appearance.
+ */
+
+/* Main background and text colors */
+:root {
+  --color-bg-canvas: #1e2030;
+  --color-bg-primary: #222436;
+  --color-bg-secondary: #2f334d;
+  --color-bg-tertiary: #292e42;
+  --color-border-primary: #444a73;
+  --color-text-primary: #c8d3f5;
+  --color-text-secondary: #a9b8e8;
+  --color-text-tertiary: #7a88cf;
+  --color-link: #65bcff;
+  --color-link-hover: #82d8ff;
+  --color-accent: #c099ff;
+  --color-accent-emphasis: #ffc777;
+  --color-success: #c3e88d;
+  --color-danger: #ff757f;
+  --color-warning: #ffc777;
+  --color-info: #65bcff;
+}
+
+/* Apply the custom colors to GitHub elements */
+body {
+  background-color: var(--color-bg-canvas) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Header */
+.Header {
+  background-color: var(--color-bg-primary) !important;
+  border-bottom: 1px solid var(--color-border-primary) !important;
+}
+
+.Header-item-link {
+  color: var(--color-text-secondary) !important;
+}
+
+.Header-item-link:hover {
+  color: var(--color-text-primary) !important;
+}
+
+/* Navigation */
+.UnderlineNav-item {
+  color: var(--color-text-secondary) !important;
+}
+
+.UnderlineNav-item.selected, .UnderlineNav-item[aria-current]:not([aria-current=false]) {
+  color: var(--color-accent-emphasis) !important;
+  border-bottom-color: var(--color-accent-emphasis) !important;
+}
+
+/* Repository content */
+.repository-content {
+  background-color: var(--color-bg-canvas) !important;
+}
+
+/* Cards and boxes */
+.Box {
+  background-color: var(--color-bg-primary) !important;
+  border-color: var(--color-border-primary) !important;
+}
+
+.Box-header {
+  background-color: var(--color-bg-secondary) !important;
+  border-color: var(--color-border-primary) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--color-accent) !important;
+  border-color: var(--color-accent) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-accent-emphasis) !important;
+  border-color: var(--color-accent-emphasis) !important;
+}
+
+.btn-outline {
+  color: var(--color-text-secondary) !important;
+  border-color: var(--color-border-primary) !important;
+}
+
+.btn-outline:hover {
+  color: var(--color-text-primary) !important;
+  background-color: var(--color-bg-tertiary) !important;
+}
+
+/* Links */
+a {
+  color: var(--color-link) !important;
+}
+
+a:hover {
+  color: var(--color-link-hover) !important;
+}
+
+/* Repository navigation */
+.reponav-item {
+  color: var(--color-text-secondary) !important;
+}
+
+.reponav-item.selected {
+  color: var(--color-text-primary) !important;
+  border-color: var(--color-accent-emphasis) !important;
+}
+
+/* File explorer */
+.file-navigation {
+  background-color: var(--color-bg-primary) !important;
+}
+
+.file-header {
+  background-color: var(--color-bg-secondary) !important;
+}
+
+/* Code blocks */
+.blob-code {
+  background-color: var(--color-bg-primary) !important;
+  color: var(--color-text-primary) !important;
+}
+
+.blob-num {
+  background-color: var(--color-bg-secondary) !important;
+  color: var(--color-text-tertiary) !important;
+}
+
+/* Syntax highlighting */
+.pl-k {
+  color: #c099ff !important; /* Keywords */
+}
+
+.pl-s {
+  color: #c3e88d !important; /* Strings */
+}
+
+.pl-c {
+  color: #7a88cf !important; /* Comments */
+}
+
+.pl-e {
+  color: #ffc777 !important; /* Entities */
+}
+
+.pl-en {
+  color: #65bcff !important; /* Entity names */
+}
+
+/* Issues and Pull Requests */
+.issue-header {
+  background-color: var(--color-bg-secondary) !important;
+}
+
+.timeline-comment {
+  background-color: var(--color-bg-primary) !important;
+  border-color: var(--color-border-primary) !important;
+}
+
+.timeline-comment-header {
+  background-color: var(--color-bg-secondary) !important;
+  border-color: var(--color-border-primary) !important;
+}
+
+/* Contribution graph */
+.js-calendar-graph-svg rect {
+  stroke: var(--color-bg-canvas) !important;
+}
+
+.js-calendar-graph-svg rect[data-level="1"] {
+  fill: #4a5482 !important;
+}
+
+.js-calendar-graph-svg rect[data-level="2"] {
+  fill: #6273b3 !important;
+}
+
+.js-calendar-graph-svg rect[data-level="3"] {
+  fill: #82a8ff !important;
+}
+
+.js-calendar-graph-svg rect[data-level="4"] {
+  fill: #c099ff !important;
+}
+
+/* Profile sidebar */
+.profile-color-modes-toggle-wrapper {
+  display: none !important; /* Hide the theme toggle since we're using our custom theme */
+}
+
+/* Notifications */
+.notification-indicator .mail-status {
+  background-color: var(--color-accent-emphasis) !important;
+}
+
+/* Dropdown menus */
+.dropdown-menu {
+  background-color: var(--color-bg-primary) !important;
+  border-color: var(--color-border-primary) !important;
+}
+
+.dropdown-item {
+  color: var(--color-text-secondary) !important;
+}
+
+.dropdown-item:hover {
+  background-color: var(--color-bg-tertiary) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Search */
+.header-search-input {
+  background-color: var(--color-bg-tertiary) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Labels */
+.IssueLabel {
+  background-color: var(--color-bg-tertiary) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Installation instructions */
+/* 
+ * How to use this theme:
+ * 
+ * 1. Install the Stylus extension for your browser:
+ *    - Chrome: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
+ *    - Firefox: https://addons.mozilla.org/en-US/firefox/addon/styl-us/
+ * 
+ * 2. Click on the Stylus icon in your browser toolbar
+ * 
+ * 3. Click "Create new style" and paste this entire CSS file
+ * 
+ * 4. Set the "Applies to" section to "URLs on the domain" and enter "github.com"
+ * 
+ * 5. Give your style a name like "Custom GitHub Theme" and save
+ * 
+ * 6. Refresh any GitHub pages to see the new theme
+ */ 
